@@ -33,7 +33,7 @@ def adaptive_game(t, Y, s, a, r, sa, sr, ux, uy, x_opt, y_opt):
 
     n = np.maximum(n, 0)
 
-    # Cyclic dominance matrix
+    # Flexible payoff matrix structures enabling multiple interaction types. E.g., Cyclic dominance matrix
     A = np.zeros((s, s))
     for i in range(s):
         A[i, (i+1) % s] = a
