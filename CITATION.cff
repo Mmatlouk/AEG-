@@ -1,11 +1,25 @@
 cff-version: 1.2.0
-title: "AEG: A Python framework for modeling of adaptive evolutionary games"
+title: "AEG pipeline for adaptive evolutionary games"
 message: "If you use this software, please cite it as below."
-version: "v1.0.0"
-date-released: 2026-03-04
 type: software
+
 authors:
-  - family-names: Kubyana
-    given-names: Mmatlou
-repository-code: https://github.com/Mmatlouk/AEG
+  - family-names: "Kubyana"
+    given-names: "Mmatlou Simeon"
+    orcid: "https://orcid.org/0000-0003-1324-2140"
+
+  - family-names: "Landi"
+    given-names: "Pietro"
+
+  - family-names: "Hui"
+    given-names: "Cang"
+
+version: 1.0.0
+date-released: 2026-03-05
+
+identifiers:
+  - type: doi
+    value: 10.5281/zenodo.18864928
+
+repository-code: https://github.com/Mmatlouk/AEG-
 license: MIT
