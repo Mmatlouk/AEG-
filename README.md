@@ -25,7 +25,7 @@ AEG is designed to provide a **transparent and reproducible computational workfl
 
 # Key Features
 
-- Unified **ODE-based modeling** of density–trait dynamics
+- Unified **ODE-based modeling** of density-trait dynamics
 - **Continuous trait evolution** via adaptive dynamics
 - **Density-dependent and trait-mediated interactions**
 - Arbitrary number of interacting species or strategies
