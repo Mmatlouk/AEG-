@@ -57,7 +57,8 @@ AEG/
 │
 ├── aeg/ # Core Python module
 │ ├── init.py
-│ └── simulation.py # Core AEG simulation engine
+│ ├── model.py
+│ ├── simulation.py simulation.py # Core AEG simulation engine
 │
 ├── aeg.ipynb # Example notebook demonstrating simulations
 ├── requirements.txt
