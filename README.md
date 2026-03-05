@@ -46,6 +46,7 @@ AEG is designed to provide a transparent and reproducible computational workflow
 ```bash
 pip install -r requirements.txt
 ```
+---
 
 ## Clone the repository
 
