@@ -105,6 +105,12 @@ Run all cells sequentially to generate:
 
 The notebook demonstrates how to use the **core simulation engine implemented in `aeg/simulation.py`.**
 
+Run example:
+
+from aeg import run_simulation
+
+t, n, x, y = run_simulation(5)
+
 ---
 
 # Reproducibility
