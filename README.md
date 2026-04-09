@@ -12,7 +12,7 @@ Adaptive evolutionary games (AEGs) extend classical evolutionary game theory by 
 The framework supports an arbitrary number of interacting players, facilitating the analysis of:
 
 - Multiplayer coevolutionary dynamics  
-- Flexible payoff matrix structures enabling multiple interaction types (e.g., cyclic dominance, competition, predator–prey, mutualistic systems)  
+- Flexible payoff matrix structures enabling multiple interaction types (e.g., cyclic dominance, competition, predator-prey, mutualistic systems)  
 - Eco-evolutionary feedbacks  
 - System stability and dynamical transitions  
 - Trait-mediated interaction shifts  
