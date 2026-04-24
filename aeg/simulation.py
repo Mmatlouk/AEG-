@@ -6,14 +6,14 @@ from .model import adaptive_game
 def run_simulation(s, seed=1,
                    a=1.0, r=1.0,
                    sa=0.3, sr=0.5,
-                   mutation_rate=0.02,
+                   mutation_rate1=0.02, mutation_rate2=0.03,
                    t_max=400,
                    n_points=10000):
 
     np.random.seed(seed)
 
-    ux = np.ones(s) * mutation_rate
-    uy = np.ones(s) * mutation_rate
+    ux = np.ones(s) * mutation_rate1
+    uy = np.ones(s) * mutation_rate2
 
     x_opt = np.random.rand(s)
     y_opt = np.random.rand(s)
