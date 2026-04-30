@@ -56,10 +56,10 @@ def adaptive_game(t, Y, s, a, r, sa, sr, ux, uy, x_opt, y_opt):
     dAxy_dx = A * dGdx
     dAxy_dy = A * dGdy
 
-    sx = n * ((dAxy_dx @ n) + r * (-2*(x - x_opt)/sr**2) * rxy)
-    sy = n * ((dAxy_dy @ n) + r * (-2*(y - y_opt)/sr**2) * rxy)
+    sx = (dAxy_dx @ n) + r * (-2*(x - x_opt)/sr**2) * rxy
+    sy = (dAxy_dy @ n) + r * (-2*(y - y_opt)/sr**2) * rxy
 
-    dotx = ux * sx
-    doty = uy * sy
+    dotx = ux * (n * sx)
+    doty = uy * (n * sy)
 
     return np.concatenate([dotn, dotx, doty])
